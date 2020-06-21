@@ -44,6 +44,8 @@ typing = { version = "^3.6", python = "~2.7" }
 
 # Use pathlib2 for Python 2.7
 pathlib2 = { version = "^2.3", python = "~2.7" }
+# Use futures on Python 2.7
+futures = { version = "^3.3.0", python = "~2.7" }
 # Use glob2 for Python 2.7 and 3.4
 glob2 = { version = "^0.6", python = "~2.7" }
 # Use virtualenv for Python 2.7 since venv does not exist
@@ -71,7 +73,7 @@ pygments = "^2.2"
 pytest-mock = "^1.9"
 pygments-github-lexers = "^0.0.5"
 black = { version = "^19.10b0", python = "^3.6" }
-pre-commit = "^1.10"
+pre-commit = { version = "^2.5.1", python = "^3.6.1" }
 tox = "^3.0"
 pytest-sugar = "^0.9.2"
 httpretty = "^0.9.6"
