@@ -63,6 +63,9 @@ class Chooser:
             ):
                 continue
 
+            if link.ext == ".egg":
+                continue
+
             links.append(link)
 
         if not links:
